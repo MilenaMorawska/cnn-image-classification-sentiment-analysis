@@ -23,7 +23,7 @@ Task 1:
 - Training callbacks (EarlyStopping, ModelCheckpoint) for efficient, overfitting-resistant training
 - Full evaluation suite: accuracy, precision, recall, F1-score, macro F1-score, and confusion matrices
 
-  Task 2:
+Task 2:
 - Three-class sentiment analysis (negative / neutral / positive) using:
   - A fine-tuned baseline transformer (nlptown/bert-base-multilingual-uncased-sentiment)
   - Zero-shot classification (MoritzLaurer/DeBERTa-v3-base-mnli-fever-anli)
@@ -33,3 +33,8 @@ Task 1:
 
 Full evaluation suite: accuracy, precision, recall, F1-score, macro F1-score, and confusion matrices
 Error handling for missing datasets and invalid inputs
+
+## Data
+
+The image dataset used for Task 1 is provided by the COP528 module (Loughborough University)
+and is not included in this repository due to file size and licensing restrictions.
